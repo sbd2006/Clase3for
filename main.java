@@ -1,5 +1,7 @@
 import java.util.Scanner;
-public static void main(String[] args) {
+
+public class main {
+
 
     Scanner sc = new Scanner(System.in);
 
@@ -30,7 +32,7 @@ public static void main(String[] args) {
 
     promedioEdad = acumuladorEdad / contadorPersonas;
     promedioEstatura = acumuladorEstatura / contadorPersonas;
-    porcentajePersonas = (double) contadorPersonas / cantidadPersonas * 100;
+    porcentajePersonas = (contadorPersonas / cantidadPersonas) * 100;
 
     System.out.println("El promedio de edad de las personas que cumplen es: " + promedioEdad + " años");
     System.out.println("El promedio de estatura de las personas que cumplen es: " + promedioEstatura + " cms");
@@ -39,3 +41,4 @@ public static void main(String[] args) {
 
 }
     
+}
