@@ -1,10 +1,10 @@
 var edad = 0, estadoCivil = 0, estatura = 0, sexo = 0, promedioEdad = 0, promedioEstatura = 0, porcentajePersonas = 0, contadorPersonas = 0, acumuladorEdad = 0, acumuladorEstatura = 0, cantidadPersonas = 3;
 
-for (let numeroPersona = 0; numeroPersona < array.length; numeroPersona++) {
+for (let numeroPersona = 0; numeroPersona <= cantidadPersonas; numeroPersona++) {
     edad = parseFloat(prompt("Ingrese la edad de la persona: " +numeroPersona));
-    estadoCivil = parseFloat(prompt("Ingrese el estado civil de la persona: " +numeroPersona+ "1.Soltero    2.Casado"));
+    estadoCivil = parseFloat(prompt("Ingrese el estado civil de la persona: " +numeroPersona+ "  1.Soltero    2.Casado"));
     estatura = parseFloat(prompt("Ingrese la estatura de la persona: " +numeroPersona + " en cms"));
-    sexo = parseFloat(prompt("Ingrese el sexo de la persona: " +numeroPersona + "1.Hombre    2.Mujer"));
+    sexo = parseFloat(prompt("Ingrese el sexo de la persona: " +numeroPersona + "  1.Hombre    2.Mujer"));
 
 
     /* prompt es una ventana emergente para responder el mensaje y parsefloat es para tranformar el mensaje a tipo de mensaje a float
