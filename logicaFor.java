@@ -21,13 +21,13 @@ public static void main(String[] args) {
     sexo = sc.nextDouble();
 
     if ((edad >= 18) && (estadoCivil == 1) && (estatura > 170) && (sexo == 1)) {
-        contadorPersonas++;
-        acumuladorEdad += edad;
-        acumuladorEstatura += estatura;
+        contadorPersonas = contadorPersonas + 1;
+        acumuladorEdad = acumuladorEdad + edad;
+        acumuladorEstatura = acumuladorEstatura + estatura;
     }
 }
 
-if (contadorPersonas > 0) {
+
     promedioEdad = acumuladorEdad / contadorPersonas;
     promedioEstatura = acumuladorEstatura / contadorPersonas;
     porcentajePersonas = (double) contadorPersonas / cantidadPersonas * 100;
@@ -35,10 +35,6 @@ if (contadorPersonas > 0) {
     System.out.println("El promedio de edad de las personas que cumplen es: " + promedioEdad + " años");
     System.out.println("El promedio de estatura de las personas que cumplen es: " + promedioEstatura + " cms");
     System.out.println("El porcentaje de personas que cumplen con la condición es del " + porcentajePersonas + " %");
-} else {
-    System.out.println("Ninguna persona cumple con las condiciones.");
-}
-
 
 
 }
