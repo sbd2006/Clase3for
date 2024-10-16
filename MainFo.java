@@ -1,14 +1,15 @@
 import java.util.Scanner;
 
-public class main {
+public class MainFo {
 
-    public static void logicaFor(String[]args){
+    public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
 
         double edad  = 0, estadoCivil = 0, estatura = 0, sexo = 0, acumuladorEdad = 0, acumuladorEstatura = 0;
         int contadorPersonas = 0, cantidadPersonas = 0;
 
-        
+        System.out.println("Ingrese el numero de personas que quieres registrar: ");
+        cantidadPersonas = sc.nextInt();
 
         
 
