@@ -24,6 +24,7 @@ public class logicaFor {
         System.out.println("El porcentaje de personas que cumplen con la condición es del " + porcentajePersonas + " %");
 
         
+        
     }
 
 }
