@@ -36,7 +36,7 @@ public class MainFo {
     }
 
 
-       logicaFor answer = new logicaFor(edad, estadoCivil, estatura, sexo, acumuladorEdad, acumuladorEstatura, contadorPersonas, cantidadPersonas);
+       logicaFor answer = new logicaFor(edad, estadoCivil, estatura, sexo, acumuladorEdad, acumuladorEstatura, contadorPersonas, cantidadPersonas, cantidadPersonas);
        answer.CalcularPromedio();
        sc.close();
 

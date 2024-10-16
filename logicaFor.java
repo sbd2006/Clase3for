@@ -1,9 +1,11 @@
 public class logicaFor {
-    double edad  = 0, estadoCivil = 0, estatura = 0, sexo = 0, acumuladorEdad = 0, acumuladorEstatura = 0;
+    double edad  = 0, estadoCivil = 0, estatura = 0, sexo = 0, acumuladorEdad = 0, acumuladorEstatura = 0, numeroPersona = 1;
     int contadorPersonas = 0, cantidadPersonas;
     
-    public logicaFor(double edad, double estadoCivil, double estatura, double sexo, double acumuladorEdad, double acumuladorEstatura,
-            int contadorPersonas, int cantidadPersonas) {
+
+
+    public logicaFor(double edad, double estadoCivil, double estatura, double sexo, double acumuladorEdad,
+            double acumuladorEstatura, int contadorPersonas, int cantidadPersonas, int numeroPersona) {
         this.edad = edad;
         this.estadoCivil = estadoCivil;
         this.estatura = estatura;
@@ -12,7 +14,10 @@ public class logicaFor {
         this.acumuladorEstatura = acumuladorEstatura;
         this.contadorPersonas = contadorPersonas;
         this.cantidadPersonas = cantidadPersonas;
+        this.numeroPersona = numeroPersona;
     }
+
+
 
     public void CalcularPromedio(){
         double promedioEdad = acumuladorEdad / contadorPersonas;
